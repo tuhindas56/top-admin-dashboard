@@ -53,9 +53,8 @@ html {
 body {
   background: var(--slate-900);
   color: var(--slate-300);
-  height: 100vh;
   display: grid;
-  grid: 1fr 5fr / max-content 3fr 1fr;
+  grid: 1fr 5fr 50px / max-content 3fr 1fr;
 }
 
 .sidebar {
@@ -243,7 +242,7 @@ header div.second-row div:last-child button:active {
 }
 
 main {
-  grid-row: 2 / -1;
+  grid-row: 2 / -2;
   grid-column: 2 / -1;
   display: grid;
   grid: 1fr 1fr / 2fr 2fr 1fr;
@@ -372,4 +371,15 @@ main {
   font-family: robotomedium;
   font-size: 1rem;
   color: var(--slate-300);
+}
+
+footer {
+  grid-column: 2 / -1;
+  grid-row: -2 / -1;
+  align-self: center;
+  justify-self: center;
+}
+
+footer i {
+  font-size: 0.7rem;
 }
