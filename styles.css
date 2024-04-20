@@ -36,6 +36,7 @@
   --slate-400: #94a3b8;
   --slate-500: #64748b;
   --slate-800: #1e293b;
+  --slate-900: #0f172a;
 }
 
 * {
@@ -50,7 +51,7 @@ html {
 }
 
 body {
-  background: #0f172a;
+  background: var(--slate-900);
   color: var(--slate-300);
   height: 100vh;
   display: grid;
