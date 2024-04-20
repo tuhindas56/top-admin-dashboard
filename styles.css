@@ -148,13 +148,16 @@ header div.first-row button {
   font-size: 1.2rem;
   border: none;
   border-radius: 0 20px 20px 0;
-
   transition: 0.2s;
 }
 
 header div.first-row button i {
   position: relative;
   right: 2px;
+}
+
+header div.first-row button:hover {
+  outline: 2px solid var(--slate-400);
 }
 
 header div.first-row button:active {
@@ -228,6 +231,7 @@ header div.second-row div:last-child {
 }
 
 header div.second-row div:last-child button {
+  font-family: robotomedium;
   background-color: var(--slate-300);
   padding: 0.6rem;
   font-size: 1rem;
@@ -235,6 +239,11 @@ header div.second-row div:last-child button {
   border-radius: 20px 20px 20px 20px;
   width: 6rem;
   transition: 0.2s;
+  cursor: pointer;
+}
+
+header div.second-row div:last-child button:hover {
+  outline: 2px solid var(--slate-500);
 }
 
 header div.second-row div:last-child button:active {
