@@ -94,24 +94,24 @@ li > a:hover {
   color: var(--slate-50);
 }
 
-header {
+.dashboard-top {
   grid-row: 1 / 2;
   grid-column: 2 / -1;
   display: grid;
 }
 
-header div.first-row {
+.dashboard-top div.first-row {
   display: grid;
   grid-template: auto / 2fr 1fr;
   align-items: center;
   padding: 1em 2em;
 }
 
-header div.first-row > div:first-child {
+.dashboard-top div.first-row > div:first-child {
   font-size: 1.3rem;
 }
 
-header div.first-row input[type="search"] {
+.dashboard-top div.first-row input[type="search"] {
   padding: 0.6em 1em;
   font-size: 1.2rem;
   border: none;
@@ -121,16 +121,16 @@ header div.first-row input[type="search"] {
   color: white;
 }
 
-header div.first-row input[type="search"]::placeholder {
+.dashboard-top div.first-row input[type="search"]::placeholder {
   color: var(--slate-400);
 }
 
-header div.first-row input[type="search"]:focus {
+.dashboard-top div.first-row input[type="search"]:focus {
   border: none;
   outline: 2px solid#94a3b8;
 }
 
-header div.first-row button {
+.dashboard-top div.first-row button {
   background-color: var(--slate-300);
   padding: 0.6em;
   font-size: 1.2rem;
@@ -139,20 +139,20 @@ header div.first-row button {
   transition: 0.2s;
 }
 
-header div.first-row button i {
+.dashboard-top div.first-row button i {
   position: relative;
   right: 2px;
 }
 
-header div.first-row button:hover {
+.dashboard-top div.first-row button:hover {
   outline: 2px solid var(--slate-400);
 }
 
-header div.first-row button:active {
+.dashboard-top div.first-row button:active {
   background-color: var(--slate-400);
 }
 
-header div.first-row > div:last-child {
+.dashboard-top div.first-row > div:last-child {
   grid-column: 2 / 3;
   display: grid;
   grid-template-columns: 1fr auto auto;
@@ -161,22 +161,22 @@ header div.first-row > div:last-child {
   font-size: 1.2rem;
 }
 
-header div.first-row i {
+.dashboard-top div.first-row i {
   justify-self: end;
 }
 
-header div.first-row img {
+.dashboard-top div.first-row img {
   justify-self: end;
   height: auto;
   width: 60px;
   border-radius: 50%;
 }
 
-header div.first-row p {
+.dashboard-top div.first-row p {
   font-family: robotomedium;
 }
 
-header div.second-row {
+.dashboard-top div.second-row {
   grid-row: 2 / 3;
   grid-column: 1 / -1;
   display: grid;
@@ -184,7 +184,7 @@ header div.second-row {
   font-family: robotomedium;
 }
 
-header div.second-row div:first-child {
+.dashboard-top div.second-row div:first-child {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
@@ -192,18 +192,18 @@ header div.second-row div:first-child {
   padding: 0 2em;
 }
 
-header div.second-row img {
+.dashboard-top div.second-row img {
   grid-column: 1;
   width: 75px;
   border-radius: 50%;
 }
 
-header div.second-row p > span {
+.dashboard-top div.second-row p > span {
   display: block;
   font-size: 0.8rem;
 }
 
-header div.second-row div:last-child {
+.dashboard-top div.second-row div:last-child {
   display: grid;
   grid-template-columns: repeat(3, auto);
   align-items: center;
@@ -212,7 +212,7 @@ header div.second-row div:last-child {
   padding: 0 2em;
 }
 
-header div.second-row div:last-child button {
+.dashboard-top div.second-row div:last-child button {
   font-family: robotomedium;
   background-color: var(--slate-300);
   padding: 0.6rem;
@@ -224,11 +224,11 @@ header div.second-row div:last-child button {
   cursor: pointer;
 }
 
-header div.second-row div:last-child button:hover {
+.dashboard-top div.second-row div:last-child button:hover {
   outline: 2px solid var(--slate-500);
 }
 
-header div.second-row div:last-child button:active {
+.dashboard-top div.second-row div:last-child button:active {
   background-color: var(--slate-400);
 }
 
