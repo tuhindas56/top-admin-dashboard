@@ -47,6 +47,7 @@ body {
   color: var(--slate-300);
   display: grid;
   grid-template: auto 5fr auto / auto 3fr 1fr;
+  height: 100vh;
 }
 
 .sidebar {
